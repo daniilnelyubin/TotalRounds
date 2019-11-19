@@ -1,0 +1,188 @@
+Error 1 /stats/matches/mapstatsid/89086/vitality-vs-party-astronauts?startDate=2019-05-28&endDate=2019-08-26&contextIds=9565&contextTypes=team
+must be str, not NoneType
+Error 2 /stats/matches/mapstatsid/88172/astralis-vs-heroic?startDate=2019-05-28&endDate=2019-08-26&contextIds=6665&contextTypes=team
+must be str, not NoneType
+Error 3 /stats/matches/mapstatsid/87265/kova-vs-ence?startDate=2019-05-28&endDate=2019-08-26&contextIds=4869&contextTypes=team
+must be str, not NoneType
+Error 1 /stats/matches/mapstatsid/88150/tyloo-vs-faze?startDate=2019-05-28&endDate=2019-08-26&contextIds=6667&contextTypes=team
+must be str, not NoneType
+Error 2 /stats/matches/mapstatsid/88280/mousesports-vs-faze?startDate=2019-05-28&endDate=2019-08-26&contextIds=6667&contextTypes=team
+must be str, not NoneType
+Error 1 /stats/matches/mapstatsid/88682/mousesports-vs-mvp-pk?startDate=2019-05-28&endDate=2019-08-26&contextIds=4494&contextTypes=team
+must be str, not NoneType
+Error 2 /stats/matches/mapstatsid/87785/furia-vs-prospects?startDate=2019-05-28&endDate=2019-08-26&contextIds=8297&contextTypes=team
+could not convert string to float: '�'
+Error 3 /stats/matches/mapstatsid/88488/teamone-vs-furia?startDate=2019-05-28&endDate=2019-08-26&contextIds=8297&contextTypes=team
+must be str, not NoneType
+Error 4 /stats/matches/mapstatsid/90298/turkey5-vs-nip?startDate=2019-05-28&endDate=2019-08-26&contextIds=4411&contextTypes=team
+must be str, not NoneType
+Error 5 /stats/matches/mapstatsid/87438/complexity-vs-mibr?startDate=2019-05-28&endDate=2019-08-26&contextIds=9215&contextTypes=team
+must be str, not NoneType
+Error 6 /stats/matches/mapstatsid/87752/heroic-vs-cr4zy?startDate=2019-05-28&endDate=2019-08-26&contextIds=7175&contextTypes=team
+must be str, not NoneType
+Error 1 /stats/matches/mapstatsid/88082/ancient-vs-cr4zy?startDate=2019-05-28&endDate=2019-08-26&contextIds=10150&contextTypes=team
+must be str, not NoneType
+Error 2 /stats/matches/mapstatsid/87755/big-vs-fnatic?startDate=2019-05-28&endDate=2019-08-26&contextIds=4991&contextTypes=team
+must be str, not NoneType
+Error 3 /stats/matches/mapstatsid/86955/pc419-vs-grayhound?startDate=2019-05-28&endDate=2019-08-26&contextIds=8008&contextTypes=team
+must be str, not NoneType
+Error 4 /stats/matches/mapstatsid/87083/grayhound-vs-ex-athletico?startDate=2019-05-28&endDate=2019-08-26&contextIds=8008&contextTypes=team
+must be str, not NoneType
+Error 5 /stats/matches/mapstatsid/88309/copenhagen-flames-vs-dreameaters?startDate=2019-05-28&endDate=2019-08-26&contextIds=8305&contextTypes=team
+'Damage / Round'
+Error 6 /stats/matches/mapstatsid/88312/dreameaters-vs-copenhagen-flames?startDate=2019-05-28&endDate=2019-08-26&contextIds=8305&contextTypes=team
+'Damage / Round'
+Error 7 /stats/matches/mapstatsid/88313/dreameaters-vs-copenhagen-flames?startDate=2019-05-28&endDate=2019-08-26&contextIds=8305&contextTypes=team
+'Damage / Round'
+Error 8 /stats/matches/mapstatsid/88554/dreameaters-vs-copenhagen-flames?startDate=2019-05-28&endDate=2019-08-26&contextIds=8305&contextTypes=team
+'Damage / Round'
+Error 9 /stats/matches/mapstatsid/88560/copenhagen-flames-vs-dreameaters?startDate=2019-05-28&endDate=2019-08-26&contextIds=8305&contextTypes=team
+'Damage / Round'
+Error 10 /stats/matches/mapstatsid/88572/dreameaters-vs-copenhagen-flames?startDate=2019-05-28&endDate=2019-08-26&contextIds=8305&contextTypes=team
+must be str, not NoneType
+Error 11 /stats/matches/mapstatsid/88645/copenhagen-flames-vs-dreameaters?startDate=2019-05-28&endDate=2019-08-26&contextIds=8305&contextTypes=team
+'Damage / Round'
+Error 12 /stats/matches/mapstatsid/88646/dreameaters-vs-copenhagen-flames?startDate=2019-05-28&endDate=2019-08-26&contextIds=8305&contextTypes=team
+'Damage / Round'
+Error 13 /stats/matches/mapstatsid/90217/dreameaters-vs-ldlc?startDate=2019-05-28&endDate=2019-08-26&contextIds=8305&contextTypes=team
+must be str, not NoneType
+Error 14 /stats/matches/mapstatsid/90381/dreameaters-vs-illuminar?startDate=2019-05-28&endDate=2019-08-26&contextIds=8305&contextTypes=team
+must be str, not NoneType
+Error 15 /stats/matches/mapstatsid/89829/avangar-vs-norbant?startDate=2019-05-28&endDate=2019-08-26&contextIds=8120&contextTypes=team
+'Damage / Round'
+Error 16 /stats/matches/mapstatsid/87581/noname-vs-forze?startDate=2019-05-28&endDate=2019-08-26&contextIds=8135&contextTypes=team
+must be str, not NoneType
+Error 17 /stats/matches/mapstatsid/87586/noname-vs-forze?startDate=2019-05-28&endDate=2019-08-26&contextIds=8135&contextTypes=team
+must be str, not NoneType
+Error 18 /stats/matches/mapstatsid/88410/forze-vs-unicorns-of-love?startDate=2019-05-28&endDate=2019-08-26&contextIds=8135&contextTypes=team
+must be str, not NoneType
+Error 19 /stats/matches/mapstatsid/89630/gambit-youngsters-vs-forze?startDate=2019-05-28&endDate=2019-08-26&contextIds=8135&contextTypes=team
+must be str, not NoneType
+Error 20 /stats/matches/mapstatsid/87477/optic-vs-weonlysnussiber1a?startDate=2019-05-28&endDate=2019-08-26&contextIds=6615&contextTypes=team
+float division by zero
+Error 21 /stats/matches/mapstatsid/90058/big-vs-optic?startDate=2019-05-28&endDate=2019-08-26&contextIds=6615&contextTypes=team
+must be str, not NoneType
+Error 22 /stats/matches/mapstatsid/86996/aristocracy-vs-tricked?startDate=2019-05-28&endDate=2019-08-26&contextIds=4602&contextTypes=team
+must be str, not NoneType
+Error 23 /stats/matches/mapstatsid/87472/tricked-vs-dragons?startDate=2019-05-28&endDate=2019-08-26&contextIds=4602&contextTypes=team
+must be str, not NoneType
+Error 24 /stats/matches/mapstatsid/87481/espada-vs-tricked?startDate=2019-05-28&endDate=2019-08-26&contextIds=4602&contextTypes=team
+must be str, not NoneType
+Error 25 /stats/matches/mapstatsid/87582/tricked-vs-elquvet?startDate=2019-05-28&endDate=2019-08-26&contextIds=4602&contextTypes=team
+must be str, not NoneType
+Error 26 /stats/matches/mapstatsid/87587/elquvet-vs-tricked?startDate=2019-05-28&endDate=2019-08-26&contextIds=4602&contextTypes=team
+must be str, not NoneType
+Error 27 /stats/matches/mapstatsid/88834/tricked-vs-copenhagen-flames?startDate=2019-05-28&endDate=2019-08-26&contextIds=4602&contextTypes=team
+'Damage / Round'
+Error 28 /stats/matches/mapstatsid/88838/copenhagen-flames-vs-tricked?startDate=2019-05-28&endDate=2019-08-26&contextIds=4602&contextTypes=team
+'Damage / Round'
+Error 29 /stats/matches/mapstatsid/88841/tricked-vs-copenhagen-flames?startDate=2019-05-28&endDate=2019-08-26&contextIds=4602&contextTypes=team
+'Damage / Round'
+Error 30 /stats/matches/mapstatsid/88858/the-final-tribe-vs-tricked?startDate=2019-05-28&endDate=2019-08-26&contextIds=4602&contextTypes=team
+must be str, not NoneType
+Error 31 /stats/matches/mapstatsid/88867/tricked-vs-the-final-tribe?startDate=2019-05-28&endDate=2019-08-26&contextIds=4602&contextTypes=team
+must be str, not NoneType
+Error 32 /stats/matches/mapstatsid/88870/the-final-tribe-vs-tricked?startDate=2019-05-28&endDate=2019-08-26&contextIds=4602&contextTypes=team
+must be str, not NoneType
+Error 33 /stats/matches/mapstatsid/90311/turkey5-vs-windigo?startDate=2019-05-28&endDate=2019-08-26&contextIds=8513&contextTypes=team
+must be str, not NoneType
+Error 34 /stats/matches/mapstatsid/90350/heretics-vs-windigo?startDate=2019-05-28&endDate=2019-08-26&contextIds=8513&contextTypes=team
+must be str, not NoneType
+Error 35 /stats/matches/mapstatsid/90459/big-vs-goldengitte?startDate=2019-05-28&endDate=2019-08-26&contextIds=7532&contextTypes=team
+float division by zero
+Error 36 /stats/matches/mapstatsid/90464/goldengitte-vs-big?startDate=2019-05-28&endDate=2019-08-26&contextIds=7532&contextTypes=team
+float division by zero
+Error 37 /stats/matches/mapstatsid/90471/big-vs-goldengitte?startDate=2019-05-28&endDate=2019-08-26&contextIds=7532&contextTypes=team
+float division by zero
+Error 38 /stats/matches/mapstatsid/88456/complexity-vs-envy?startDate=2019-05-28&endDate=2019-08-26&contextIds=5005&contextTypes=team
+must be str, not NoneType
+Error 39 /stats/matches/mapstatsid/90656/complexity-vs-tyloo?startDate=2019-05-28&endDate=2019-08-26&contextIds=5005&contextTypes=team
+must be str, not NoneType
+Error 40 /stats/matches/mapstatsid/86771/gamerlegion-vs-nexus-academy?startDate=2019-05-28&endDate=2019-08-26&contextIds=9928&contextTypes=team
+float division by zero
+Error 41 /stats/matches/mapstatsid/88325/gamerlegion-vs-warriors?startDate=2019-05-28&endDate=2019-08-26&contextIds=9928&contextTypes=team
+float division by zero
+Error 42 /stats/matches/mapstatsid/87855/syman-vs-noname?startDate=2019-05-28&endDate=2019-08-26&contextIds=8772&contextTypes=team
+must be str, not NoneType
+Error 43 /stats/matches/mapstatsid/88129/espada-vs-syman?startDate=2019-05-28&endDate=2019-08-26&contextIds=8772&contextTypes=team
+must be str, not NoneType
+Error 44 /stats/matches/mapstatsid/89107/syman-vs-bootcampparty?startDate=2019-05-28&endDate=2019-08-26&contextIds=8772&contextTypes=team
+float division by zero
+Error 45 /stats/matches/mapstatsid/89116/bootcampparty-vs-syman?startDate=2019-05-28&endDate=2019-08-26&contextIds=8772&contextTypes=team
+float division by zero
+Error 46 /stats/matches/mapstatsid/89282/copenhagen-flames-vs-syman?startDate=2019-05-28&endDate=2019-08-26&contextIds=8772&contextTypes=team
+'Damage / Round'
+Error 47 /stats/matches/mapstatsid/89292/copenhagen-flames-vs-syman?startDate=2019-05-28&endDate=2019-08-26&contextIds=8772&contextTypes=team
+'Damage / Round'
+Error 48 /stats/matches/mapstatsid/90125/syman-vs-raregods?startDate=2019-05-28&endDate=2019-08-26&contextIds=8772&contextTypes=team
+must be str, not NoneType
+Error 49 /stats/matches/mapstatsid/87178/ad-hoc-vs-virtuspro?startDate=2019-05-28&endDate=2019-08-26&contextIds=5378&contextTypes=team
+float division by zero
+Error 50 /stats/matches/mapstatsid/87183/virtuspro-vs-ad-hoc?startDate=2019-05-28&endDate=2019-08-26&contextIds=5378&contextTypes=team
+float division by zero
+Error 51 /stats/matches/mapstatsid/88790/ex-wisa-pock-vs-virtuspro?startDate=2019-05-28&endDate=2019-08-26&contextIds=5378&contextTypes=team
+float division by zero
+Error 52 /stats/matches/mapstatsid/88799/virtuspro-vs-ex-wisa-pock?startDate=2019-05-28&endDate=2019-08-26&contextIds=5378&contextTypes=team
+float division by zero
+Error 53 /stats/matches/mapstatsid/88807/virtuspro-vs-ex-wisa-pock?startDate=2019-05-28&endDate=2019-08-26&contextIds=5378&contextTypes=team
+float division by zero
+Error 54 /stats/matches/mapstatsid/82573/rogue-vs-liquid?startDate=2019-02-27&endDate=2019-05-28&contextIds=5973&contextTypes=team
+must be str, not NoneType
+Error 55 /stats/matches/mapstatsid/84527/liquid-vs-lazarus?startDate=2019-02-27&endDate=2019-05-28&contextIds=5973&contextTypes=team
+float division by zero
+Error 56 /stats/matches/mapstatsid/84528/lazarus-vs-liquid?startDate=2019-02-27&endDate=2019-05-28&contextIds=5973&contextTypes=team
+float division by zero
+Error 57 /stats/matches/mapstatsid/85840/spacestation-vs-liquid?startDate=2019-02-27&endDate=2019-05-28&contextIds=5973&contextTypes=team
+must be str, not NoneType
+Error 58 /stats/matches/mapstatsid/85971/luminosity-vs-liquid?startDate=2019-02-27&endDate=2019-05-28&contextIds=5973&contextTypes=team
+must be str, not NoneType
+Error 59 /stats/matches/mapstatsid/86046/liquid-vs-mibr?startDate=2019-02-27&endDate=2019-05-28&contextIds=5973&contextTypes=team
+must be str, not NoneType
+Error 60 /stats/matches/mapstatsid/82790/ence-vs-izako-boars?startDate=2019-02-27&endDate=2019-05-28&contextIds=4869&contextTypes=team
+must be str, not NoneType
+Error 61 /stats/matches/mapstatsid/86392/heroic-vs-natus-vincere?startDate=2019-02-27&endDate=2019-05-28&contextIds=4608&contextTypes=team
+must be str, not NoneType
+Error 62 /stats/matches/mapstatsid/82784/vitality-vs-epsilon?startDate=2019-02-27&endDate=2019-05-28&contextIds=9565&contextTypes=team
+must be str, not NoneType
+Error 63 /stats/matches/mapstatsid/82963/vitality-vs-mousesports?startDate=2019-02-27&endDate=2019-05-28&contextIds=9565&contextTypes=team
+must be str, not NoneType
+Error 64 /stats/matches/mapstatsid/86020/vitality-vs-epsilon?startDate=2019-02-27&endDate=2019-05-28&contextIds=9565&contextTypes=team
+must be str, not NoneType
+Error 65 /stats/matches/mapstatsid/86545/vitality-vs-renegades?startDate=2019-02-27&endDate=2019-05-28&contextIds=9565&contextTypes=team
+must be str, not NoneType
+Error 66 /stats/matches/mapstatsid/82531/mibr-vs-ago?startDate=2019-02-27&endDate=2019-05-28&contextIds=9215&contextTypes=team
+must be str, not NoneType
+Error 67 /stats/matches/mapstatsid/82706/mibr-vs-viva-algeria?startDate=2019-02-27&endDate=2019-05-28&contextIds=9215&contextTypes=team
+must be str, not NoneType
+Error 68 /stats/matches/mapstatsid/83174/mibr-vs-faze?startDate=2019-02-27&endDate=2019-05-28&contextIds=9215&contextTypes=team
+must be str, not NoneType
+Error 69 /stats/matches/mapstatsid/83631/renegades-vs-mibr?startDate=2019-02-27&endDate=2019-05-28&contextIds=9215&contextTypes=team
+must be str, not NoneType
+Error 70 /stats/matches/mapstatsid/82827/fnatic-vs-ago?startDate=2019-02-27&endDate=2019-05-28&contextIds=4991&contextTypes=team
+must be str, not NoneType
+Error 71 /stats/matches/mapstatsid/82881/mousesports-vs-fnatic?startDate=2019-02-27&endDate=2019-05-28&contextIds=4991&contextTypes=team
+must be str, not NoneType
+Error 72 /stats/matches/mapstatsid/82883/mousesports-vs-fnatic?startDate=2019-02-27&endDate=2019-05-28&contextIds=4991&contextTypes=team
+must be str, not NoneType
+Error 73 /stats/matches/mapstatsid/86235/virtuspro-vs-fnatic?startDate=2019-02-27&endDate=2019-05-28&contextIds=4991&contextTypes=team
+must be str, not NoneType
+Error 74 /stats/matches/mapstatsid/85951/nip-vs-mousesports?startDate=2019-02-27&endDate=2019-05-28&contextIds=4411&contextTypes=team
+must be str, not NoneType
+Error 75 /stats/matches/mapstatsid/83560/pain-vs-faze?startDate=2019-02-27&endDate=2019-05-28&contextIds=6667&contextTypes=team
+must be str, not NoneType
+Error 76 /stats/matches/mapstatsid/86399/faze-vs-optic?startDate=2019-02-27&endDate=2019-05-28&contextIds=6667&contextTypes=team
+must be str, not NoneType
+Error 77 /stats/matches/mapstatsid/85827/eunited-vs-nrg?startDate=2019-02-27&endDate=2019-05-28&contextIds=6673&contextTypes=team
+must be str, not NoneType
+Error 78 /stats/matches/mapstatsid/84316/renegades-vs-eunited?startDate=2019-02-27&endDate=2019-05-28&contextIds=6211&contextTypes=team
+must be str, not NoneType
+Error 79 /stats/matches/mapstatsid/86071/instinct-vs-mousesports?startDate=2019-02-27&endDate=2019-05-28&contextIds=4494&contextTypes=team
+float division by zero
+Error 80 /stats/matches/mapstatsid/84373/north-vs-ex-space-soldiers?startDate=2019-02-27&endDate=2019-05-28&contextIds=7533&contextTypes=team
+must be str, not NoneType
+Error 81 /stats/matches/mapstatsid/82438/nochance-vs-avangar?startDate=2019-02-27&endDate=2019-05-28&contextIds=8120&contextTypes=team
+could not convert string to float: '�'
+Error 82 /stats/matches/mapstatsid/82439/nochance-vs-avangar?startDate=2019-02-27&endDate=2019-05-28&contextIds=8120&contextTypes=team
+could not convert string to float: '�'
+Error 83 /stats/matches/mapstatsid/83099/ex-3dmax-vs-avangar?startDate=2019-02-27&endDate=2019-05-28&contextIds=8120&contextTypes=team
+must be str, not NoneType

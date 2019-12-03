@@ -13,5 +13,5 @@ python setup.py
 ## Использование
 После установки можно воспользоваться скриптом при помощи команды в командной строке:
 ```
- totalrounds -s "data.csv" -l "logs -d 
+ totalrounds -s "data.csv" -l "logs" -d
 ```

@@ -10,7 +10,7 @@ import time
 import sys
 import json
 import time
-
+import calendar
 
 class Parser(object):
     def __init__(self, start_date, end_date):
@@ -101,6 +101,35 @@ class Parser(object):
                     print("Attempt to make request")
                 print("---Success---")
                 return BeautifulSoup(response.text, "lxml")
+    def get_closest_top_link(self,date):
+        month = calendar.month_name[date.month]
+        day = date.day
+        year = date.year
+        page = self.get_parsed_page(url="/ranking/teams/")
+        div_filter =  page.find("div",{"class":"filter-column-con"})
+        div_days = div_filter.find_all("div",{"class":"filter-column-content"})[2]
+        a_days = div_days.find_all("a")
+        arr_of_days = list()
+        for num in a_days:
+            day_re = re.findall(r"\d+",num.text)
+            # print(num.text)
+            arr_of_days.append(int(day_re[0]))
+        arr_of_days = np.array(arr_of_days)
+        closest_day = arr_of_days[np.argmin(np.abs(arr_of_days-day))]
+
+        url = "/ranking/teams/"
+        url = url+str(year)+"/"
+        url = url + str(month.lower()) + "/"
+        url = url+str(closest_day)+"/"
+        return url
+
+
+
+
+
+
+
+        pass
 
     def top_30_teams(self,link):
         page = self.get_parsed_page(link)

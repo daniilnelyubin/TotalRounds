@@ -19,9 +19,9 @@ python setup.py
 ```
  python3 parser.py -s "data.csv" -l "logs" -t 90
 ```
- - -s  - имя файла для сохранения данных (/data/your_file) <br />
- - -l  - имя файла для сохранения логов (/logs/your_file) <br />
- - -t  - количество дней значения от 30 до 90 <br />
+ - -s  - имя файла для сохранения данных /data/your_file (указывать не обязтельно) <br />
+ - -l  - имя файла для сохранения логов /logs/your_file (указывать не обязтельно) <br />
+ - -t  - количество дней значения от 30 до 90 (указывать не обязтельно) <br />
 
 ```
  python3   model_traning.py -d data.csv
@@ -32,4 +32,4 @@ python setup.py
 ```
  - -m - Название карты (Inferno, Overpass, Train, Vertigo, Mirage, Dust2, Nuke) <br/>
  - -l - Ссылка на матч bo1 в формате _/matches/2338403/mousesports-vs-virtuspro-cs-summit-5_  <br/>
- - -t - Время за которое будет браться статистика (Например 90)  <br/>
+ - -t - Время за которое будет браться статистика (Например 90) (указывать не обязтельно)  <br/>

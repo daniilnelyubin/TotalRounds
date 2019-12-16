@@ -25,7 +25,7 @@ def minus_days(days, today):
 
 def write_id(id):
     with open("ids/ids", "a") as f:
-        f.write(id + "\n")
+        f.write(str(id) + "\n")
 
 
 def write_logs(log):
@@ -104,6 +104,7 @@ if __name__ == "__main__":
     arr_of_teams = parser.top_30_teams(link)
 
     dict_of_matches = dict()
+    write_id(0)
     dict_of_matches = load_ids(dict_of_matches)
     for team in arr_of_teams:
 

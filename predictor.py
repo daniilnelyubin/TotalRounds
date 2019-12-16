@@ -37,6 +37,7 @@ def write_to_csv(dic, first_time, file_name):
             w.writeheader()
         w.writerow(dic)
 
+
 def clear_existing_data():
     mypath = "data/"
 
@@ -52,7 +53,7 @@ def clear_existing_data():
                     continue
 
 
-def get_data_for_prediction(match_url, map,days):
+def get_data_for_prediction(match_url, map, days):
     if os.path.exists("data/" + re.split("/", match_url)[3] + "-" + map + ".csv"):
         return
 
@@ -100,7 +101,7 @@ def get_data_for_prediction(match_url, map,days):
 
 def clear_data_frame(data_frame):
     return data_frame.drop(
-        ["first_team_link", "second_team_link", "date", "ft_age", "st_age", "ft_pl_players_in_team",
+        ["ft_link", "st_link", "date", "ft_age", "st_age", "ft_pl_players_in_team",
          "st_pl_players_in_team"],
         axis=1)
 
@@ -112,12 +113,11 @@ def clear_data_frame(data_frame):
 
 boost_ot = pickle.load(open("models/xgb_overtime.pickle.dat", "rb"))
 boost_wot = pickle.load(open("models/xgb_best.pickle.dat", "rb"))
-boost_linear = pickle.load(open("models/xgb_boost_linear.pickle.dat", "rb"))
+
 
 map = "Inferno"
 link = ""
 days = 90
-
 
 if __name__ == "__main__":
     arguments = sys.argv[1:]
@@ -127,25 +127,31 @@ if __name__ == "__main__":
                 map = arguments[idx + 1]
             if value == "-l":
                 link = arguments[idx + 1]
+                link = re.split(r".org" ,link)[-1]
             if value == "-t":
                 days = arguments[idx + 1]
 
+    if link == "":
+        print("No link")
+        sys.exit()
+    
+    if (map != "Inferno") and (map != "Dust2") and (map != "Nuke") and (map != "Overpass") and (
+            map != "Train") and (map != "Mirage") and (map != "Vertigo"):
+        print("Wrong map")
+        sys.exit()
 
+    boost_ot = pickle.load(open("models/xgb_overtime.pickle.dat", "rb"))
+    boost_wot = pickle.load(open("models/xgb_best.pickle.dat", "rb"))
 
-    matches = {link:map}
+    matches = {link: map}
 
     for url in matches.keys():
         map = matches[url]
-        get_data_for_prediction(url,map,days=days)
-        data_df = pd.read_csv("data/"+re.split("/",url)[3]+"-"+map+".csv")
+        get_data_for_prediction(url, map, days=days)
+        data_df = pd.read_csv("data/" + re.split("/", url)[3] + "-" + map + ".csv")
         # data_df = clear_data_frame(data_df)
         X = data_df.to_numpy()
         print(url)
         print("Overtime model: " + str(boost_ot.predict(X)[0]))
         print("WO Overtime model: " + str(boost_wot.predict(X)[0]))
-        print("Linear model: " + str(boost_linear.predict(X)[0]))
-        print("Average: " +str((boost_ot.predict(X)+boost_wot.predict(X)+boost_linear.predict(X))[0]/3))
-
-
-
-    clear_existing_data()
+        print("Average: " + str((boost_ot.predict(X) + boost_wot.predict(X))[0] / 2))

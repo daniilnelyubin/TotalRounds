@@ -66,12 +66,12 @@ if __name__ == "__main__":
         if idx % 2 == 0:
             if value == "-s":
                 save = arguments[idx + 1]
-            if value == "-d":
-                print("running deamon")
+
             if value == "-l":
                 log_name = arguments[idx + 1]
+
             if value == "-t":
-                days = arguments[idx + 1]
+                days = int(arguments[idx + 1])
 
     today = datetime.date.today()
     # today_minus_three_mont = today - dateutil.relativedelta.relativedelta(months=3)
@@ -161,7 +161,7 @@ if __name__ == "__main__":
                     first_time = False
 
                 except Exception as e:
-                    with open("errors", "a") as f:
+                    with open("errors/error", "a") as f:
                         count_of_err += 1
                         print("-----Error " + str(count_of_err) + " in match-----")
                         f.write("Error " + str(count_of_err) + " " + match + "\n")

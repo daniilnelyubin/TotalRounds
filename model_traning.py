@@ -11,6 +11,7 @@ import xgboost as xgb
 import pickle
 from mining import *
 import sys
+import os
 
 data_file = ""
 
@@ -79,6 +80,11 @@ if __name__ == "__main__":
     print("Boost wo overtime result:", np.sqrt(mean_squared_error(predicted_wot, y_test_wot)))
 
     print("Boost overtime result:", np.sqrt(mean_squared_error(predicted_ot, y_test)))
+
+    try:
+        os.mkdir("models")
+    except FileExistsError:
+        a = 1
 
     # pickle.dump(boost_ot, open("models/xgb_overtime.pickle.dat", "wb"))
     # pickle.dump(boost_wot, open("models/xgb_best.pickle.dat", "wb"))

@@ -4,6 +4,8 @@ from HltvParser import Parser
 import csv
 import re
 import sys
+import os
+from pathlib import Path
 
 save = "data.csv"
 log_name = "logs"
@@ -11,6 +13,11 @@ days = 90
 
 
 def write_to_csv(dic, first_time):
+    dir_name = "data"
+    try:
+        os.mkdir(dir_name)
+    except FileExistsError:
+        a = 1
     save_str = str(save)
     with open("data/" + save_str, "a") as f:
         w = csv.DictWriter(f, dic.keys())
@@ -24,11 +31,28 @@ def minus_days(days, today):
 
 
 def write_id(id):
-    with open("ids/ids", "a") as f:
-        f.write(str(id) + "\n")
+    dir_name = "ids"
+    try:
+        os.mkdir(dir_name)
+    except FileExistsError:
+        a = 1
+    my_file = Path("/ids/ids")
+    if my_file.is_file():
+        with open("ids/ids", "a") as f:
+            f.write(str(id) + "\n")
+            f.close()
+    else:
+        with open("ids/ids", "w") as f:
+            f.write(str(id) + "\n")
+            f.close()
 
 
 def write_logs(log):
+    dir_name = "logs"
+    try:
+        os.mkdir(dir_name)
+    except FileExistsError:
+        a = 1
     log_name_str = str(log_name)
     with open("logs/" + log_name_str, "w") as f:
         f.write(log + "\n")
@@ -162,6 +186,11 @@ if __name__ == "__main__":
                     first_time = False
 
                 except Exception as e:
+                    dir_name = "errors"
+                    try:
+                        os.mkdir(dir_name)
+                    except FileExistsError:
+                        a = 1
                     with open("errors/error", "a") as f:
                         count_of_err += 1
                         print("-----Error " + str(count_of_err) + " in match-----")

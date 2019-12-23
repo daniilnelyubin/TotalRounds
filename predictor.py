@@ -144,6 +144,10 @@ if __name__ == "__main__":
     boost_wot = pickle.load(open("models/xgb_best.pickle.dat", "rb"))
 
     matches = {link: map}
+    try:
+        os.mkdir("data")
+    except FileExistsError:
+        a = 1
 
     for url in matches.keys():
         map = matches[url]

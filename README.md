@@ -28,8 +28,8 @@ python setup.py
 ```
  - -d - имя файла с данными, файл должен находиться в директории /data/ 
 ```
- python3   predictor.py -s -l /matches/2338403/mousesports-vs-virtuspro-cs-summit-5 -m "Train"
+ python3   predictor.py -l /matches/2338403/mousesports-vs-virtuspro-cs-summit-5 -m "Train"
 ```
  - -m - Название карты (Inferno, Overpass, Train, Vertigo, Mirage, Dust2, Nuke) <br/>
  - -l - Ссылка на матч bo1 в формате _/matches/2338403/mousesports-vs-virtuspro-cs-summit-5_  <br/>
- - -t - Время за которое будет браться статистика (Например 90) (указывать не обязтельно)  <br/>
+ - -t - Время за которое будет браться статистика (Например 90) (указывать не обязтельно)****  <br/>

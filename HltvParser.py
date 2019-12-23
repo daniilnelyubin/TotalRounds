@@ -293,6 +293,7 @@ class Parser(object):
             map_href = a['href']
             if a.text == map_name:
                 return map_href
+        return map_href
 
     def get_team_players_info(self, team_page):
         divs = team_page.findAll("div", {"class": "col teammate"})
@@ -351,7 +352,10 @@ class Parser(object):
         for idx, row in enumerate(stats_rows):
             if idx > 5:
                 spans = row.findAll("span")
-                dic[spans[0].text] = float(re.split("%", spans[1].text)[0])
+                try:
+                    dic[spans[0].text] = float(re.split("%", spans[1].text)[0])
+                except Exception as e:
+                    dic[spans[0].text] = 0
         return dic
 
     def get_avrg_team_stats(self, arr):

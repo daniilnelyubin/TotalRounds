@@ -1,3 +1,15 @@
 python-dateutil
 python_utils
 sklearn
+bs4
+BeautifulSoup4
+lxml
+xgboost
+pickle
+pandas
+datetime
+dateutil
+numpy
+matplotlib
+seaborn
+pathlib

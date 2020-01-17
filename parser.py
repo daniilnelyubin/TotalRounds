@@ -90,12 +90,20 @@ if __name__ == "__main__":
         if idx % 2 == 0:
             if value == "-s":
                 save = arguments[idx + 1]
+                if save == "" or save == " ":
+                    print("Invalid save file")
+                    sys.exit()
 
             if value == "-l":
                 log_name = arguments[idx + 1]
-
+                if log_name == "" or log_name == " ":
+                    print("Invalid log file")
+                    sys.exit()
             if value == "-t":
                 days = int(arguments[idx + 1])
+                if days>90 or days<30:
+                    print("Invalid number of days")
+                    sys.exit()
 
     today = datetime.date.today()
     # today_minus_three_mont = today - dateutil.relativedelta.relativedelta(months=3)

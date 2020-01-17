@@ -129,7 +129,10 @@ if __name__ == "__main__":
                 link = arguments[idx + 1]
                 link = re.split(r".org" ,link)[-1]
             if value == "-t":
-                days = arguments[idx + 1]
+                days = int(arguments[idx + 1])
+                if days > 90 or days < 30:
+                    print("Invalid number of days")
+                    sys.exit()
 
     if link == "":
         print("No link")
